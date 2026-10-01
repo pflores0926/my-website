@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A modern creative studio website for branding, design, and digital experiences."
+    />
+    <title>Northstar Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="logo" aria-label="Northstar home">
+          <span class="logo-mark">N</span>
+          <span>Northstar</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+          <a href="#contact" class="btn btn-primary nav-cta">Book a call</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Creative strategy • Branding • Web</p>
+            <h1>We build digital experiences that people remember.</h1>
+            <p class="lead">
+              Northstar helps startups and growing brands turn bold ideas into polished,
+              conversion-focused experiences.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">Start your project</a>
+              <a href="#work" class="btn btn-secondary">View recent work</a>
+            </div>
+
+            <ul class="trust-list" aria-label="Client highlights">
+              <li>Trusted by 80+ brands</li>
+              <li>Avg. 3x engagement lift</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Studio dashboard preview">
+            <div class="dashboard-card card-main">
+              <div class="card-top">
+                <span class="dot red"></span>
+                <span class="dot amber"></span>
+                <span class="dot green"></span>
+              </div>
+
+              <div class="chart-panel">
+                <div class="chart-bars" aria-hidden="true">
+                  <span style="--h: 45%"></span>
+                  <span style="--h: 60%"></span>
+                  <span style="--h: 52%"></span>
+                  <span style="--h: 75%"></span>
+                  <span style="--h: 83%"></span>
+                  <span style="--h: 95%"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="floating-card card-metric">
+              <p>Revenue growth</p>
+              <strong>+128%</strong>
+              <span>in 6 months</span>
+            </div>
+
+            <div class="floating-card card-badge">
+              <span class="badge-icon">★</span>
+              <div>
+                <strong>4.9/5</strong>
+                <small>Average client rating</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="logo-strip" aria-label="Client logos">
+        <div class="container logo-list">
+          <span>Vertex</span>
+          <span>Nova Labs</span>
+          <span>Signal</span>
+          <span>Harbor</span>
+          <span>Luma</span>
+          <span>Atelier</span>
+        </div>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="container split-layout">
+          <div class="section-copy">
+            <p class="eyebrow">Why Northstar</p>
+            <h2>Strategy, design, and development under one roof.</h2>
+            <p>
+              We partner with founders and teams that want a smarter, sharper digital presence.
+              From positioning to launch, we turn complex ideas into compelling experiences.
+            </p>
+            <p>
+              Our process blends business thinking with design clarity so every touchpoint feels
+              intentional and performs with purpose.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="mini-panel">
+              <span class="label">Focused on outcomes</span>
+              <strong>Brand clarity</strong>
+              <strong>UX strategy</strong>
+              <strong>Conversion design</strong>
+            </div>
+            <div class="stats-grid">
+              <div>
+                <strong>7+</strong>
+                <span>Years crafting digital products</span>
+              </div>
+              <div>
+                <strong>120</strong>
+                <span>Projects launched successfully</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section services">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">What we do</p>
+            <h2>Solutions built to move brands forward.</h2>
+          </div>
+
+          <div class="card-grid">
+            <article class="service-card">
+              <div class="service-icon">01</div>
+              <h3>Brand Identity</h3>
+              <p>Messaging, visual systems, and positioning that make your company unmistakable.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon">02</div>
+              <h3>Web Design</h3>
+              <p>Beautiful, responsive experiences designed to make a clear first impression.</p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-icon">03</div>
+              <h3>Product Strategy</h3>
+              <p>Product thinking that connects user needs, clear value, and measurable growth.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="section work">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Selected work</p>
+            <h2>Recent launches with measurable impact.</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card project-one">
+              <div class="project-content">
+                <span>Brand launch</span>
+                <h3>Vertex Capital</h3>
+              </div>
+            </article>
+
+            <article class="project-card project-two">
+              <div class="project-content">
+                <span>E-commerce redesign</span>
+                <h3>Harbor Market</h3>
+              </div>
+            </article>
+
+            <article class="project-card project-three">
+              <div class="project-content">
+                <span>Experience strategy</span>
+                <h3>Nova Labs</h3>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section testimonial">
+        <div class="container quote-box">
+          <p class="quote">
+            “Northstar helped us sharpen our story and turn our site into a true sales asset. We
+            saw stronger engagement and more qualified conversations in the first month.”
+          </p>
+          <div class="author">
+            <strong>Sarah Nguyen</strong>
+            <span>Founder, Signal Studio</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <p class="eyebrow">Let’s build something clear.</p>
+          <h2>Ready to turn your digital presence into an advantage?</h2>
+        </div>
+
+        <a href="mailto:hello@northstarstudio.com" class="btn btn-primary">hello@northstarstudio.com</a>
+      </div>
+
+      <div class="container footer-meta">
+        <p>© 2026 Northstar Studio</p>
+        <div class="socials" aria-label="Social links">
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Behance</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
